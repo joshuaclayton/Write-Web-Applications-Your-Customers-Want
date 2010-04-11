@@ -7,5 +7,6 @@
   {"section":"outside_in_development"},
   {"section":"importance_of_acceptance_tests"},
   {"section":"business_value"},
-  {"section":"cucumber_in_action"}
+  {"section":"cucumber_in_action"},
+  {"section":"cucumber_tips"}
 ]
