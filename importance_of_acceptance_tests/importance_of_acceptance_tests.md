@@ -43,7 +43,7 @@
 * Real-world (&lt; 2 weeks ago) example of a behavior issue
 
 !SLIDE
-### i posted the item as [primary email address]@gmail.com, got the email from you to that address. When I clicked on it, I was already logged in with my other test account. The message displayed and I was able to respond even though I was logged into the wrong account. Then when you replied, it sent email to [secondary email address]@gmail.com.. who was not selling the item in the first place
+> i posted the item as [primary email address]@gmail.com, got the email from you to that address. When I clicked on it, I was already logged in with my other test account. The message displayed and I was able to respond even though I was logged into the wrong account. Then when you replied, it sent email to [secondary email address]@gmail.com.. who was not selling the item in the first place
 
 !SLIDE code smaller
     Scenario: User responds as another user
@@ -71,7 +71,7 @@
       Then "primary@person.com" should receive a contact email with "This is for primary again"
 
 !SLIDE center
-# Put that into your pipe and smoke it
+# Put that in your pipe and smoke it
 ![Pipe](pipe.jpg)
 
 !SLIDE bullets

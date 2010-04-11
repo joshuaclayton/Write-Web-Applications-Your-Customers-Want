@@ -1,3 +1,12 @@
+body { font-family: "Gotham HTF"; }
+h1 {
+  font-weight: 600;
+  color: #333;
+}
+blockquote {
+  font-size: 2em;
+}
+
 div.content.code.smaller[ref*=importance_of_acceptance_tests] pre {
   font-size: 2em;
 }
