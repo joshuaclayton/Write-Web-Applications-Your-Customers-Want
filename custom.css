@@ -1,4 +1,5 @@
 body { font-family: "Gotham HTF"; }
+body pre { font-family: "Inconsolata"; }
 h1 {
   font-weight: 600;
   color: #333;
@@ -7,6 +8,6 @@ blockquote {
   font-size: 2em;
 }
 
-div.content.code.smaller[ref*=importance_of_acceptance_tests] pre {
+div.content.smaller[ref*=importance_of_acceptance_tests] pre {
   font-size: 2em;
 }

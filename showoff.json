@@ -6,5 +6,6 @@
   {"section":"what_is_cucumber_not_good_for"},
   {"section":"outside_in_development"},
   {"section":"importance_of_acceptance_tests"},
-  {"section":"business_value"}
+  {"section":"business_value"},
+  {"section":"cucumber_in_action"}
 ]
