@@ -9,7 +9,7 @@
 
 !SLIDE bullets incremental
 # It's not good for...
-* Javascript testing
+* Testing behavior that uses Javascript
 
 !SLIDE bullets
 # JUST KIDDING!
