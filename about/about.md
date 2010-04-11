@@ -4,10 +4,10 @@
 !SLIDE
 # Josh Clayton
 
-!SLIDE center
+!SLIDE full-page
 ![Thoughtbot](thoughtbot.png)
 
-!SLIDE center
+!SLIDE full-page
 ![Blueprint CSS](blueprint.png)
 
 !SLIDE
