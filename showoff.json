@@ -3,5 +3,6 @@
   {"section":"about"},
   {"section":"what_is_cucumber"},
   {"section":"what_is_cucumber_good_for"},
-  {"section":"what_is_cucumber_not_good_for"}
+  {"section":"what_is_cucumber_not_good_for"},
+  {"section":"outside_in_development"}
 ]
