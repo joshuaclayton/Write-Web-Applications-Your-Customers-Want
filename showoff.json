@@ -4,5 +4,6 @@
   {"section":"what_is_cucumber"},
   {"section":"what_is_cucumber_good_for"},
   {"section":"what_is_cucumber_not_good_for"},
-  {"section":"outside_in_development"}
+  {"section":"outside_in_development"},
+  {"section":"importance_of_acceptance_tests"}
 ]
