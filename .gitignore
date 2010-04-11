@@ -1,0 +1,6 @@
+log/*
+tmp/*
+*.DS_Store
+*.swp
+*.swo
+!.keep
