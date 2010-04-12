@@ -1,12 +1,12 @@
 [
-  {"section":"title"},
-  {"section":"about"},
-  {"section":"what_is_cucumber"},
-  {"section":"what_is_cucumber_good_for"},
-  {"section":"what_is_cucumber_not_good_for"},
-  {"section":"outside_in_development"},
-  {"section":"importance_of_acceptance_tests"},
-  {"section":"business_value"},
-  {"section":"cucumber_in_action"},
-  {"section":"cucumber_tips"}
+  {"section":"1-title"},
+  {"section":"2-about"},
+  {"section":"3-what_is_cucumber"},
+  {"section":"4-what_is_cucumber_good_for"},
+  {"section":"5-what_is_cucumber_not_good_for"},
+  {"section":"6-outside_in_development"},
+  {"section":"7-importance_of_acceptance_tests"},
+  {"section":"8-business_value"},
+  {"section":"9-cucumber_in_action"},
+  {"section":"10-cucumber_tips"}
 ]
