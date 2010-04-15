@@ -178,6 +178,20 @@
 * DON'T!!!
 * You want to keep your features and steps DRY
 
+!SLIDE smaller
+# From this
+    When I fill in "Title" with "Deposit my check"
+    And I fill in "Tags" with "bank, errand"
+    And I fill in "Due" with "tomorrow"
+
+!SLIDE smaller
+# To this
+    @@@ ruby
+    When %{I fill in the todo form with valid details} do
+      When %{I fill in "Title" with "Deposit my check"}
+      When %{I fill in "Tags" with "bank, errand"}
+      When %{I fill in "Due" with "tomorrow"}
+    end
 
 !SLIDE
 # Factory Girl provides Cucumber steps
