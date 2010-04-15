@@ -11,3 +11,6 @@ blockquote {
 div.content.smaller[ref*=importance_of_acceptance_tests] pre {
   font-size: 2em;
 }
+div.content.smaller[ref*=cucumber_in_action] pre {
+  font-size: 2em;
+}

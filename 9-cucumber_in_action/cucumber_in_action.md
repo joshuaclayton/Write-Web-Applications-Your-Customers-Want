@@ -221,3 +221,48 @@
       | title          | user                  |
       | Learn Cucumber | email: me@example.com |
       | Learn Webrat   | email: me@example.com |
+
+!SLIDE bullets incremental
+# Mocking _can_ be okay in your scenarios
+* As with anything else, just know when to use it
+
+!SLIDE bullets incremental
+# When to mock in your scenarios
+* External APIs!
+* Geolocation requests to Google
+* Testing various Authorize.net failures
+
+!SLIDE code smaller
+    Scenario: Update my user information
+      Given I have signed in with "email@person.com/password"
+      And Google Geocoder responds to the address "02108" with:
+        | latitude  | 42.3560443  |
+        | longitude | -71.0617943 |
+      When I go to the account page
+      And I fill in "Location" with "02108"
+      And I press "Save"
+      Then I should see a Google map with the following settings:
+        | lat  | 42.3560443  |
+        | lng  | -71.0617943 |
+        | size | 375x150     |
+      When I fill in "Location" with ""
+      And I press "Save"
+      Then I should not see a Google static map
+
+!SLIDE code smaller
+    Scenario: Buy a gift card without CC authorization
+      Given my CC company responds with an auth error of "You have insufficient funds"
+      When I go to the gift card purchase page
+      And I fill in the gift card form
+      And I confirm the order
+      Then I should see the error "You have insufficient funds"
+
+!SLIDE bullets incremental
+# Benefits
+* This allows you to test code branches with various scenarios
+* You're not dependant on having an internet connection to test
+
+!SLIDE bullets incremental
+# Potential Drawbacks
+* 3rd Party APIs can change
+* Your mocks could be wrong
