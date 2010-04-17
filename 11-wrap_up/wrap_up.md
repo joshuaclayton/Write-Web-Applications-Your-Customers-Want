@@ -12,6 +12,11 @@
 * Capybara (http://github.com/jnicklas/capybara)
 * Harmony (http://github.com/mynyml/harmony)
 
+!SLIDE bullets
+# Resources
+* http://github.com/joshuaclayton/Write-Web-Applications-Your-Customers-Want
+* http://web-apps-your-customers-want.heroku.com/
+
 !SLIDE
 # Thanks!
 
