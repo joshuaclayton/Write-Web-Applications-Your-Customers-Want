@@ -74,7 +74,7 @@
 # Put that in your pipe and smoke it
 ![Pipe](pipe.jpg)
 
-!SLIDE bullets
+!SLIDE bullets incremental
 # Augmentation
 * Cucumber should augment your test suite
 * Model and controller tests are the "in" of outside-in development
